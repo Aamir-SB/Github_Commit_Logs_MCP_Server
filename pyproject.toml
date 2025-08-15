@@ -1,0 +1,11 @@
+[project]
+name = "squareboat"
+version = "0.1.0"
+description = "MCP server for all things Squareboat. At the time it can help you fill work logs for you"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.13.0",
+    "requests>=2.32.4",
+]
